@@ -1,7 +1,7 @@
-import BestSellers from "../BestSellers.jsx"
+import BestSellers from "./BestSellers.jsx"
 import Style from "./Product.module.css"
-import Style2 from "../FaceCleanser/FaceCleanser.module.css"
-import Nav2 from "../Nav2.jsx"
+import Style2 from "./FaceCleanser.module.css"
+import Nav2 from "./Nav2.jsx"
 const Product = () => {
    return (
       <div>

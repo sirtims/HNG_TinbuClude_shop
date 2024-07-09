@@ -1,4 +1,4 @@
-import HeroProduct from "../HeroProduct"
+import HeroProduct from "./HeroProduct"
 import Style from "./FaceProduct.module.css"
 import PropTypes from 'prop-types'
 

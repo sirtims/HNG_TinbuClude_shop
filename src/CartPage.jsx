@@ -1,9 +1,9 @@
-import CartComponet from '../CartComponent/CartComponent.jsx'
+import CartComponet from './CartComponent.jsx'
 import Nav2 from './Nav2.jsx'
 import Style1 from './CartPage.module.css'
-import Style from "./Product/Product.module.css"
-import Style2 from "./FaceCleanser/FaceCleanser.module.css"
-import BestSellers from '../BestSellers.jsx'
+import Style from "./Product.module.css"
+import Style2 from "./FaceCleanser.module.css"
+import BestSellers from './BestSellers.jsx'
 import React, { useState } from "react"
 
 const CartPage = () => {

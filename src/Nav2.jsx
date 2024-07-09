@@ -1,4 +1,4 @@
-import Style from "./FaceCleanser/FaceCleanser.module.css"
+import Style from "./FaceCleanser.module.css"
 
 const Nav2 = () => {
    return (

@@ -1,6 +1,6 @@
-import BestSellers from "../BestSellers"
+import BestSellers from "./BestSellers"
 import Style from "./FaceCleanser.module.css"
-import Nav2 from "../Nav2"
+import Nav2 from "./Nav2"
 const FaceCleansers = () => {
    return (
       <div className={Style.faceCleanser_wrapper}>

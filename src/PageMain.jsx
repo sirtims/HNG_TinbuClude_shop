@@ -1,6 +1,6 @@
 
 import PropTypes from 'prop-types'
-import Style from "./FaceProduct/FaceProduct.module.css"
+import Style from "./FaceProduct.module.css"
 import BestSellers from "./BestSellers"
 
 function PageMain({ arrivalProduct, explore, handleOrder }) {
