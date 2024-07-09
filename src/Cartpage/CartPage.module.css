@@ -1,0 +1,14 @@
+.product_wrapper {
+   background: #F5F0EC;
+   position: relative;
+   box-shadow: 0 20px 40px -2px gray;
+
+}
+
+.addToCart {
+   position: absolute;
+   top: 50px;
+   /* right: 0; */
+   left: 60%;
+   width: 100%;
+}

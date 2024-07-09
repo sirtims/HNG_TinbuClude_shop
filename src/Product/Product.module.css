@@ -1,0 +1,376 @@
+.product_wrapper {
+   width: 100%;
+   background: #F5F0EC;
+   box-shadow: 0 20px 40px -2px gray;
+
+}
+
+.nav {
+   display: flex;
+   align-items: center;
+   width: 164px;
+   font-family: 'Montserrat';
+   font-weight: 400;
+   font-size: 6px;
+   gap: 6px;
+   color: #000000;
+}
+
+.nav img {
+   width: 12px;
+   height: 12px;
+}
+
+.product {
+   font-family: 'Montserrat';
+   width: 90%;
+   margin: 0 auto;
+}
+
+.content {
+   margin-top: 100px;
+   display: flex;
+   align-items: flex-end;
+   padding: 12px;
+   padding-bottom: 6em;
+
+}
+
+.content_img {
+   width: 20%;
+}
+
+.content_img img {
+   width: 100%;
+   object-fit: cover;
+}
+
+.details {
+   width: 50%;
+}
+
+.details h1 {
+   font-family: 'Poppins';
+   font-weight: 500;
+   font-size: 5px;
+}
+
+.rating {
+   display: flex;
+   align-items: center;
+}
+
+.rating p {
+   font-weight: 400;
+   font-size: 6px;
+   color: #9C6644;
+}
+
+.stars img {
+   width: 12.75px;
+   height: 12.75px;
+   margin-right: 12px;
+
+}
+
+.paragraph {
+   font-weight: 400;
+   font-size: 6px;
+   line-height: 10px;
+   color: #010000;
+
+}
+
+.pricing p {
+   font-weight: 600;
+   font-size: 7px;
+   display: inline-block;
+
+}
+
+.delivery_fee {
+   color: #9C6644;
+   font-weight: 400;
+   font-size: 12px;
+}
+
+
+
+.quality p {
+   height: 10px;
+   font-weight: 500;
+   font-size: 6px;
+   color: #939393;
+
+}
+
+.count_details {
+   display: flex;
+   gap: 6px;
+}
+
+.count {
+   display: flex;
+   gap: 24px;
+   align-items: center;
+   border: 1px solid #9C6644;
+   padding: 6px;
+   color: #9C6644;
+   cursor: pointer;
+}
+
+.count img {
+   height: 10px;
+}
+
+.count:hover {
+   background: #a09a97b7;
+   color: white;
+}
+
+.count p {
+   display: flex;
+   align-items: center;
+   font-size: 8px;
+   margin: 0;
+   font-weight: 700;
+   color: #000000;
+}
+
+.count_details_p {
+   font-weight: 400;
+   font-size: 8px;
+
+   color: #939393;
+
+
+}
+
+.callToAction {
+   display: flex;
+   margin-top: 12px;
+   align-items: center;
+   gap: 6px;
+}
+
+.callToAction a {
+   text-decoration: none;
+}
+
+.action1 {
+   width: 20%;
+   padding: 6px;
+   display: flex;
+   height: 15px;
+   justify-content: center;
+   align-items: center;
+   background: #9C6644;
+   color: white;
+}
+
+.action1 img {
+   height: 10px;
+}
+
+.action2 {
+   width: 80%;
+
+}
+
+
+
+
+.action2_details {
+   display: flex;
+   justify-content: center;
+   gap: 20%;
+   align-items: center;
+   height: 15px;
+   background: #9C6644;
+   color: white;
+   padding: 6px;
+   position: relative;
+
+}
+
+.action2_details h3 {
+   font-weight: 700;
+   font-size: 5px;
+
+}
+
+.action2_details p {
+   position: absolute;
+   right: 6px;
+   font-size: 6px;
+}
+
+@media (min-width:700px) {
+   .nav {
+      font-size: 24px;
+   }
+
+   .nav img {
+      width: 14px;
+      height: 12px;
+   }
+
+   .details h1 {
+      font-weight: 500;
+      font-size: 25px;
+      line-height: 60px;
+   }
+
+   .rating {
+      display: flex;
+      align-items: center;
+   }
+
+   .rating p {
+      font-weight: 400;
+      font-weight: 400;
+      font-size: 24px;
+      color: #9C6644;
+   }
+
+   .stars img {
+      width: 20px;
+      height: 20px;
+      margin-right: 12px;
+
+   }
+
+   .paragraph {
+      font-size: 15px;
+      line-height: 20px;
+   }
+
+   .pricing p {
+      font-size: 20px;
+
+   }
+
+   .delivery_fee {
+      font-size: 12px;
+   }
+
+   .quality p {
+      font-size: 24px;
+      line-height: 166.67%;
+
+   }
+
+   .count_details {
+      display: flex;
+      gap: 6px;
+   }
+
+   .count {
+      display: flex;
+      gap: 24px;
+      align-items: center;
+      border: 1px solid #9C6644;
+      padding: 0 8px;
+      color: #9C6644;
+      margin-top: 6px;
+
+   }
+
+   .count img {
+      height: 20px;
+   }
+
+   .count p {
+      font-weight: 600;
+      font-size: 20px;
+   }
+
+   .count_details_p {
+      display: flex;
+      align-items: center;
+      font-size: 8px;
+
+
+
+   }
+
+   .action1 {
+
+      height: 64px;
+   }
+
+   .action1 img {
+      height: 25px;
+   }
+
+   .action2_details {
+      height: 64px;
+      padding-right: 6px;
+   }
+
+   .action2_details h3 {
+      font-size: 20px;
+
+   }
+
+   .action2_details p {
+      font-size: 20px;
+   }
+
+
+}
+
+
+/* <div className={Style.product}>
+            <div className={Style.nav}>
+               <img src="public\header_img\Vector.svg" alt="" />
+               <p>Back to List</p>
+            </div>
+            <div className={Style.content}>
+               <img src="public\header_img\product.png" alt="" />
+               <section className={Style.details}>
+                  <h1>The Original Daily Care</h1>
+                  <div className={Style.rating}>
+                     <div className={Style.stars}>
+                        <img src="header_img\Star.svg" alt="" />
+                        <img src="header_img\Star.svg" alt="" />
+                        <img src="header_img\Star.svg" alt="" />
+                        <img src="header_img\Star.svg" alt="" />
+                        <img className={Style.NoBg_star} src="header_img\Star.svg" alt="" />
+                     </div>
+                  </div>
+                  <p className={Style.paragraph}>
+                     Dui aliquam blandit scelerisque nec diam pharetra odio hendrerit.
+                     Ac amet purus egestas tortor ullamcorper tempus vel. Morbi sapien
+                     venenatis parturient mattis tincidunt cursus ut non donec. Cursus
+                     ugue egestas elementum venenatis suscipit id facilisis mi id.
+                     Gravida platea in at mauris egestas sed nullam.
+                  </p>
+
+                  <div className={Style.pricing}>
+                     <p><span>#</span>30,000</p> <span>+Delivery fee</span>
+                  </div>
+                  <div className={Style.quality}>
+                     <p>Quality</p>
+                     <div className={Style.count_details}>
+                        <div className={Style.count}>
+                           <img src="header_img\Vector.svg" alt="" />
+                           <p>1</p>
+                           <img src="header_img\Vector-right.svg" alt="" />
+                        </div>
+                        <p className={Style.count_details_p}>5 items in stock</p>
+                     </div>
+                  </div>
+                  <div className={Style.callToAction}>
+                     <a className={Style.action1} href=""><img src="header_img\shopping-cart.png" alt="" /></a>
+                     <a className={Style.action2} href="">
+                        <div className={Style.action2_details}>
+                           <h3>ADD TO CART</h3>
+                           <p>#30,000</p>
+                        </div>
+                     </a>
+                  </div>
+               </section>
+            </div>
+
+         </div> */

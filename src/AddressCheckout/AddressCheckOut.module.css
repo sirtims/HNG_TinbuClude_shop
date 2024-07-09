@@ -1,0 +1,316 @@
+.contentContainer {
+   width: 90%;
+   max-width: 900px;
+   margin: 0 auto;
+
+}
+
+.container {
+   /* height: 100vh; */
+   width: 100%;
+   margin-top: 100px;
+
+
+}
+
+.ul {
+   /* margin-bottom: 20em; */
+   display: flex;
+   align-items: center;
+   font-family: 'Montserrat';
+
+}
+
+.li {
+   display: flex;
+   gap: 3.61px;
+   align-items: center;
+   font-size: 10.8164px;
+   color: #9C6644;
+   font-size: 8px;
+}
+
+/* 
+li:first-child p {
+   font-weight: 700;
+} */
+.paymentNavP,
+.shippingP,
+.addressP,
+.reviewP {
+   font-weight: 700;
+}
+
+li .int {
+   width: 20px;
+   height: 20px;
+   border-radius: 50%;
+   background: #F5F0EC;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+
+.address_order_wrapper {
+   border: 1px solid black;
+   box-sizing: border-box;
+   height: 100%;
+   font-family: 'Montserrat';
+   width: 90%;
+   display: block;
+   margin: 0 auto;
+
+}
+
+.address_order_wrapper input {
+   height: 18.8px;
+}
+
+.address_h1 {
+   font-weight: 600;
+   font-size: 12px;
+   color: #9C6644;
+   margin: 0 auto;
+   border-bottom: 0.408149px solid #6A3948;
+   padding: 10.6119px 4.08149px;
+
+}
+
+.form {
+   width: 80%;
+   margin: 0 auto;
+   padding: 4px 12px;
+}
+
+.form p {
+   margin-bottom: 0;
+   font-family: 'Montserrat';
+   font-weight: 600;
+   font-size: 12.16297px;
+   line-height: 12px;
+   letter-spacing: 1.22445px;
+   text-transform: capitalize;
+
+   /* skin/text */
+   color: #6A3948;
+}
+
+.form h3 {
+   color: #9C6644;
+}
+
+.form input {
+   height: 19.8px;
+   background: #F5F0EC;
+   border: 0.408149px solid #F5F0EC;
+   border-radius: 3.26519px;
+}
+
+.adress {
+   width: 100%;
+
+}
+
+.adress h1 {
+   color: #9C6644;
+}
+
+.adress input {
+   width: 100%;
+   box-sizing: border-box;
+}
+
+.name {
+   display: flex;
+   justify-content: space-between;
+   box-sizing: border-box;
+}
+
+.f_name {
+   width: 45%;
+}
+
+.f_name input {
+   width: 100%;
+}
+
+.l_name {
+   width: 45%;
+}
+
+.l_name input {
+   width: 100%;
+   box-sizing: border-box;
+}
+
+.adrress_main {
+   display: flex;
+   gap: 12px;
+   flex-direction: column;
+
+   margin: 10px 0;
+}
+
+.country_state {
+   display: flex;
+   justify-content: space-between;
+
+}
+
+.country,
+.state {
+   width: 45%;
+}
+
+.country input,
+.state input {
+   width: 100%;
+   box-sizing: border-box;
+}
+
+.city_code {
+   display: flex;
+   justify-content: space-between;
+}
+
+.city {
+   width: 45%;
+}
+
+.code {
+   width: 50%;
+}
+
+.city input,
+.code input {
+   width: 100%;
+   box-sizing: border-box;
+}
+
+.phone {
+   width: 100%;
+   margin-bottom: 12px;
+}
+
+.phone input {
+   width: 100%;
+   box-sizing: border-box;
+}
+
+.help {
+   margin-top: 30px;
+   display: flex;
+   flex-direction: column;
+   align-items: end;
+}
+
+.help p {
+   font-weight: 600;
+   cursor: pointer;
+   color: #9C6644;
+   width: fit-content;
+   padding: 3px;
+   border-radius: 3px;
+}
+
+.help p:hover {
+   background: #c8c0bc;
+   color: #ffffff;
+}
+
+.shipping {
+   width: 90%;
+   margin: 0 auto;
+}
+
+.shipping h1 {
+   font-family: 'Montserrat';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 40px;
+   line-height: 30px;
+   letter-spacing: 3px;
+   color: #9C6644;
+}
+
+.standard {
+   border-bottom: 1px solid black;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.standard_express {
+   letter-spacing: 3px;
+   color: #9C6644
+}
+
+.card {
+   display: flex;
+   justify-content: space-between;
+}
+
+.cardNumber {
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   gap: 30px;
+}
+
+.cvv {
+   width: 20%;
+
+}
+
+.cvv input {
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: end;
+}
+
+/* 
+   <div className={Style.card}>
+                  <div className={Style.f_name}>
+                     <p>Exp. Date</p>
+                     <input type="text" />
+                     <select name="" id="">
+                        <option value=""></option>
+                        <option value="">Master card</option>
+                        <option value="">Visa</option>
+                        <option value=""></option>
+                     </select>
+                  </div>
+                  <div className={Style.l_name}>
+                     <p>CVV</p>
+                     <input type="text" />
+                  </div>
+               </div> */
+
+@media (min-width: 700px) {
+   .container {
+      margin-top: 150px;
+   }
+
+   .contentContainer {
+      display: flex;
+
+   }
+
+   .form {
+      width: 50%;
+   }
+
+   .cart {
+      width: 50%;
+   }
+
+   .standard {
+      width: 80%;
+   }
+
+   .li {
+      font-size: 15px;
+   }
+}
