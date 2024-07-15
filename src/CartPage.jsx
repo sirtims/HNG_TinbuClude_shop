@@ -6,11 +6,13 @@ import Style2 from "./FaceCleanser.module.css"
 import BestSellers from './BestSellers.jsx'
 import React, { useState } from "react"
 
-const CartPage = () => {
+
+
+function CartPage() {
    const [storage] = useState(JSON.parse(localStorage.getItem("product")))
-   console.log(storage)
    const [{ productName, product_urle }] = storage
    const [increaseItem, setIncreasItem] = useState(0)
+
    function handleDecrement() {
       setIncreasItem(incre => incre > 0 ? incre - 1 : 0)
    }

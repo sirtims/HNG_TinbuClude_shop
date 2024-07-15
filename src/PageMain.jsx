@@ -1,10 +1,9 @@
 
 import PropTypes from 'prop-types'
 import Style from "./FaceProduct.module.css"
-import BestSellers from "./BestSellers"
+import BestSellers from "./BestSellers.jsx"
 
-function PageMain({ arrivalProduct, explore, handleOrder }) {
-
+function PageMain({ arrivalProduct, best, explore, handleOrder }) {
 
    return (<>
       <section className="hero">
@@ -13,15 +12,15 @@ function PageMain({ arrivalProduct, explore, handleOrder }) {
          </p>
          <div className={Style.hero_images}>
             <div className={Style.image1}>
-               < img src="public\header_img\header-img1.png" alt="product 1" />
+               < img src="/images/header-img1.png" alt="product 1" />
 
             </div>
             <div className={Style.big}>
-               < img src="public\header_img\header_img_big.png" alt="product 1" />
+               < img src="/images/header_img_big.png" alt="product 1" />
 
             </div>
             <div className={Style.image3}>
-               < img src="public\header_img\header-img2.png" alt="product 1" />
+               < img src="/images/header-img2.png" alt="product 1" />
 
             </div>
          </div>
@@ -47,7 +46,7 @@ function PageMain({ arrivalProduct, explore, handleOrder }) {
             ))}
 
          </section>
-         <BestSellers />
+         <BestSellers best={best} handleOrder={handleOrder} />
          <section className="express-more">
             <div className="express-more-wrapper">
                {explore.map(ex => (
@@ -85,6 +84,7 @@ function PageMain({ arrivalProduct, explore, handleOrder }) {
 PageMain.propTypes = {
    arrivalProduct: PropTypes.array.isRequired,
    explore: PropTypes.array.isRequired,
+   best: PropTypes.array.isRequired,
    handleOrder: PropTypes.func.isRequired
 }
 export default PageMain

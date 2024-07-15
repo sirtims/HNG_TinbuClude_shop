@@ -6,6 +6,8 @@ body {
 
 }
 
+
+
 header {
   width: 100%;
   background: #F5F0EC;
@@ -434,11 +436,7 @@ main article h6 {
 
 }
 
-.best-seller-wrapper article img {
-  width: 159.27px;
-  height: 129.31px;
-  padding: 10px 0;
-}
+
 
 /* EXPLOR SECTION */
 .express-more {
@@ -835,9 +833,9 @@ form input::placeholder {
   }
 
   .best-seller-wrapper article img {
-    width: 160px;
-    height: 120.16px;
-    padding: 10px 0;
+    /* width: 160px;
+    height: 120.16px; */
+    /* padding: 10px; */
   }
 
   .best-seller-wrapper article h4 {
@@ -1260,11 +1258,11 @@ form input::placeholder {
 
   }
 
-  .best-seller-wrapper article img {
+  /* .best-seller-wrapper article img {
     width: 265px;
     height: 215.16px;
-    padding: 10px 0;
-  }
+    padding: 10px;
+  } */
 
   .best-seller-wrapper article h4 {
     font-style: normal;
@@ -1531,37 +1529,3 @@ form input::placeholder {
     transform: none;
   }
 }
-
-/*
-
-
-     <div className="action">
-                     <div className="price">
-                        <p className="type">cream</p>
-                        <p className="old_price">N12,000</p>
-                        <p className="new_price">N8,000</p>
-                     </div>
- <div className="iaction_mg"> <img src="setArrivalProduct" alt="" /></div>   
- 
- 
-      <article>
-                  <img src="public\header_img\explore-more\img1.png" alt="olive nature" />
-                  <div className="content">
-                     <h4>OLIVE NATURE</h4>
-                     <div className="explore_action">
-                        <div className="details">
-                           <p>200ml</p>
-                           <p>Oil</p>
-                           <p>Type</p>
-                           <button>view details</button>
-                        </div>
-                        <div className="cart">
-                           <p>N22,000</p>
-                           <p>price</p>
-                           <button>add to cart</button>
-                        </div>
-                        <div>
-                        </div>
-                     </div>
-                  </div>
-               </article></div>  */
