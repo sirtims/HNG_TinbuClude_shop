@@ -39,10 +39,10 @@ function CartPage() {
                      <h1>The Original {productName}</h1>
                      <div className={Style.rating}>
                         <div className={Style.stars}>
-                           <img src="header_img\Star.svg" alt="" />
-                           <img src="header_img\Star.svg" alt="" />
-                           <img src="header_img\Star.svg" alt="" />
-                           <img src="header_img\Star.svg" alt="" />
+                           <img src="/images/Star.png" alt="" />
+                           <img src="/images/Star.png" alt="" />
+                           <img src="/images/Star.png" alt="" />
+                           <img src="/images/Star.png" alt="" />
                            <img className={Style.NoBg_star} src="header_img\Star.svg" alt="" />
                         </div>
                         <p>56 reviews</p>
